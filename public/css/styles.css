@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+html {
+    font-size: 16px;
 }
 
 body {
@@ -10,7 +15,11 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
 }
 
 nav ul {
@@ -18,4 +27,16 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
 }
