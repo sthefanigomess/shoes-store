@@ -136,6 +136,31 @@ form label input, form label select {
     width: 100%;
 }
 
-form label input[type=checkbox]{
+form label input[type=checkbox],
+form label input[type=radio]{
     width: auto;
 }
+
+form label input[type=file]{
+    display: none;
+}
+
+form label input[type=file]+span{
+    cursor: pointer;
+    background: #C21856;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px 0px 6px 0px;
+}
+
+form label input[type=file]+span:hover{
+    background-color: #f793b8;
+    color: #C21856;
+}
+
+
+
+
+
+
+
