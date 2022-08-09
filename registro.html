@@ -25,7 +25,61 @@
 
     <main class="container">
         <section>
-            lalalaluuuu!
+            <h2>Faça parte do nosso time</h2>
+            <form action="endereco/para/onde/o/form/vai" method="get">
+                
+                <label for="nome">
+                    <span>Nome</span>
+                    <input id="nome" type="text" name="nomeDoCandidato" placeholder="Digite o seu nome aqui">
+                </label>
+
+                <label>
+                    <span>E-mail</span>
+                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                </label>
+
+                <input type="hidden" name="visitouPagina" value="1">
+
+                <label>
+                    <span>Telefone</span>
+                    <input type="tel" name="telefone" id="telefone">
+                </label>
+
+                <label>
+                    <span>Departamento</span>
+                    <select name="departamento" id="departamento">
+                        <option selected disabled>Selecione um departamento</option>
+                        <optgroup label="Departamentos bons...">
+                            <option value="prog">Programação</option>
+                            <option value="data">Ciência de dados</option>
+                        </optgroup>
+                        <optgroup label="Departamentos não bons...">
+                            <option value="vend">Vendas</option>
+                            <option value="mark">Marketing</option>
+                        </optgroup>
+                    </select>
+                </label>
+
+                <div>
+                    <h3>Disponibilidade</h3>
+                    <label>
+                        <input type="checkbox" name="disp_integral">
+                        <span>Integral (8h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="disp_meioperiodo">
+                        <span>Meio Período (4h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="disp_freela">
+                        <span>Freelancer (burro de carga)</span>
+                    </label>
+                </div>
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
         </section>
         
         <section>
