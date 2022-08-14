@@ -1,0 +1,21 @@
+#destaque img{
+    width: 100%;
+}
+
+#estilo h2{
+    text-align: center;
+}
+
+#estilo div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#estilo div img:nth-child(1){
+    width: 38%
+}
+
+#estilo div img:nth-child(2){
+    width: 57%;
+}
